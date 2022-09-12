@@ -25,8 +25,8 @@ while x !=6:
     x += 1
     comList.append(value)
     print(comList)
-    comList = []
-    l = list(set(l))
+    #comList = []
+    #l = list(set(l))
 
 
 
