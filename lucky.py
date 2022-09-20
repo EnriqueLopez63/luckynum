@@ -19,11 +19,10 @@ while x != 6:
 
 #computers random luckynumbers
 
-value = ("yurr") 
+
 comList = set()
-while len(comList) != 5: 
-    value = random.randint(1, 70)   
-    comList.add (value)  
+while len(comList) != 5:  
+    comList.add (random.randint(1, 70))  
 print(comList)
 
 
