@@ -1,8 +1,6 @@
-from audioop import add
 import random
-from secrets import choice
-num = set()
 
+num = set()
 
 x = 1
 while x != 6:
@@ -13,16 +11,17 @@ while x != 6:
     x += 1
     if int(guess) > 70:
         guess = input('LESS THAN 70!')
+    guess=int(guess)
     num.add(guess)
     print(num)
     
 
 #computers random luckynumbers
-
-
+def rand70():
+    return random.randint(0,70)
 comList = set()
 while len(comList) != 5:  
-    comList.add (random.randint(1, 70))  
+    comList.add (rand70())  
 print(comList)
 
 
